@@ -1,0 +1,244 @@
+/* writing by sumiyuru*/
+
+.btn-new {
+  display: flex;
+  gap: 8px;
+  max-width: 170px;
+  padding: 10px 20px;
+}
+
+.btn-class {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .display-1 {
+    text-align: center;
+  }
+  .btn-new {
+    width: 200px;
+  }
+  .btn-class {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  border: 0;
+}
+.badge-primary {
+  z-index: 999 !important;
+  background-color: #212529;
+  border-radius: none;
+}
+/* card group aka PRIMARY */
+.card-group .card-primary:hover {
+  box-shadow: 0 40px 60px -20px rgba(39, 39, 39, 0.15);
+  z-index: 100;
+}
+.card-group .card-primary:hover .card-title {
+  color: #343a40;
+}
+.card-group .card-primary .card-img-top {
+  width: 100%;
+  height: auto;
+  margin: 80px auto 32px;
+}
+.card-group .card-primary .card-body > .badge {
+  margin-bottom: 24px;
+}
+.card-group .card-primary .card-body {
+  padding: 0 32px;
+}
+.card-group .card-primary .card-title {
+  color: #212529;
+  font-size: 26px;
+  line-height: 1.54;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.card-group .card-primary .card-footer {
+  padding: 48px 0 56px;
+  background: transparent;
+  border: 0;
+}
+
+.card-social {
+  margin-bottom: 20px;
+}
+.card-social ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  justify-content: center;
+  list-style: none !important;
+  display: flex;
+  color: transparent;
+}
+
+.card-social ul li {
+  position: unset;
+  list-style: none !important;
+}
+
+.card-social ul li a {
+  color: #212529;
+}
+.alert,
+.btn .badge,
+.card,
+.list-group-item,
+.page-link {
+  position: static;
+}
+
+.section li::before {
+  content: "";
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #000;
+}
+
+.btn-div {
+  margin: 50px 0;
+}
+
+/* partners sectioin */
+.education__image {
+  z-index: 2;
+  width: 150px;
+  margin: 35px 0px;
+}
+.education__image img {
+  opacity: 0.7;
+}
+.sponsor:hover .education__image img {
+  opacity: 1;
+}
+.sponsor {
+  margin-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mb-40 {
+  margin-bottom: 80px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.badge-primary-op {
+  opacity: 0.7;
+}
+
+.sponsor:hover .badge-primary-op {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .about-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+}
+
+@media (max-width: 575px) {
+  .about .about-img {
+    margin: 30px 0 0 30px;
+  }
+  .about .about-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+.about h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .about h3 {
+    font-size: 28px;
+  }
+}
+.about li {
+  margin-bottom: 0px;
+}
+.about .nav-pills {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.2);
+}
+.about .nav-pills li + li {
+  margin-left: 40px;
+}
+.about .nav-link {
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ced4da;
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+.about .nav-link.active {
+  color: #212529;
+  background: none;
+  border-bottom: 3px solid #212529;
+}
+@media (max-width: 575px) {
+  .about .nav-link {
+    font-size: 16px;
+  }
+}
+.about .tab-head {
+  display: flex;
+  align-items: center;
+}
+.about .tab-head h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: #343a40;
+  text-transform: uppercase;
+}
+.about .tab-head i {
+  font-size: 20px;
+  line-height: 0;
+  margin: 0px 8px;
+  color: #343a40;
+}
+
+.tab-ul ul {
+  padding-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tab-ul ul li {
+  display: flex;
+  gap: 10px;
+}
+
+.header {
+  min-height: 75px;
+}

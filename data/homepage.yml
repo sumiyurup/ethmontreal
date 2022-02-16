@@ -1,0 +1,328 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Raditian"
+# showcase
+showcase:
+  enable: true
+  title: "ETH Montreal Conference and Hackathon"
+  subtitle: "June 13-24 2022"
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "fas fa-ticket-alt"
+    btnText: "Tickets"
+    URL: "https://radity.com/en/contact/"
+
+  button2:
+    icon: "fab fa-hackerrank"
+    btnText: "Apply to Hack "
+    URL: "https://radity.com/en/contact/"
+
+  button3:
+    icon: "fas fa-certificate"
+    btnText: "Apply to Sponsor"
+    URL: "https://radity.com/en/contact/"
+
+# about
+team:
+  enable: true
+  title: "Our speakers"
+  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic inventore tempora aspernatur quaerat harum non quibusdam? Alias, libero. Exercitationem facilis beatae voluptatem eveniet saepe quaerat modi nulla, laudantium consequatur. Porro!"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+  spekers:
+    - name: "Donald S. Tipps"
+      company: "Dope tech"
+      image: "/img/speakers/speakers-1.png"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
+
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
+
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
+
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
+
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
+
+    - name: "Trion Technology"
+      company: "Michael N. York"
+      image: "/img/speakers/speakers-2.png"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
+
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
+
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
+
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
+
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
+
+    - name: "James S. Gonzales"
+      company: "Creative Information Tech"
+      image: "/img/speakers/speakers-3.png"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
+
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
+
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
+
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
+
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
+  button:
+    icon: "fas fa-long-arrow-alt-right"
+    btnText: "Our Team"
+    URL: "team/"
+
+# partners
+partners:
+  enable: true
+  title: "Partners"
+  partners:
+    - partner: "Diamond Sponsors"
+      image: "/img/partners/candit sual-logos_black.png"
+
+    - partner: "Diamond Sponsors"
+      image: "/img/partners/crown kodak-logos_black.png"
+
+    - partner: "Diamond Sponsors"
+      image: "/img/partners/janalist-logos_black.png"
+
+    - partner: "Silver Sponsors"
+      image: "/img/partners/niko club-logos_black.png"
+
+    - partner: "Silver Sponsors"
+      image: "/img/partners/Phase Squad-logos_black.png"
+
+    - partner: "Silver Sponsors"
+      image: "/img/partners/pinkymart-logos_black.png"
+
+    - partner: "Bronze Sponsors"
+      image: "/img/partners/serup ict-logos_black.png"
+
+    - partner: "Bronze  Sponsors"
+      image: "/img/partners/storyme-logos_black.png"
+
+    - partner: "Bronze Sponsors"
+      image: "/img/partners/windmillon-logos_black.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Sponsors"
+  enable: true
+
+  diamond:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  silver:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  bronze:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+map:
+  - title: "Radity Finance - UI Kit"
+    description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    button:
+      icon: "icon-arrow-right"
+      btnText: "Case Study"
+      URL: "#"
+
+# shedule
+shedule:
+  image: "/img/works/radity-finance.png"
+  enable: true
+  conference:
+    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
+    events:
+      - "Lorem ipsum dolor sit."
+      - "Lorem, ipsum dolor."
+      - "Lorem ipsum dolor sit amet."
+    time: "06:00 PM Onward"
+    location: "47 W 13th St, New York, NY 10011, USA"
+
+  hackathon:
+    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
+    events:
+      - "Lorem ipsum dolor sit."
+      - "Lorem, ipsum dolor."
+      - "Lorem ipsum dolor sit amet."
+    time: "06:00 PM Onward"
+    location: "47 W 13th St, New York, NY 10011, USA"
+
+  side_events:
+    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
+    events:
+      - "Lorem ipsum dolor sit."
+      - "Lorem, ipsum dolor."
+      - "Lorem ipsum dolor sit amet."
+    time: "06:00 PM Onward"
+    location: "47 W 13th St, New York, NY 10011, USA"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

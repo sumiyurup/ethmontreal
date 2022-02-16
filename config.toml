@@ -1,0 +1,100 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Conference"
+  URL = "#conference"
+  weight = 2
+
+  [[menu.header]]
+  name = "Partners"
+  URL = "#partners"
+  weight = 4
+
+  [[menu.header]]
+  name = "Sponsors "
+  URL = "#sponsors"
+  weight = 5
+
+  [[menu.header]]
+  name = "Venu"
+  URL = "#venu"
+  weight = 6
+
+  [[menu.header]]
+  name = "Schedule"
+  URL = "#schedule"
+  weight = 7
+
+  [[menu.header]]
+  name = "About us"
+  URL = "about"
+  weight = 8
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Team"
+  URL = "team"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Apply to sponsor"
+  URL = "apply-to-sponsor"
+  weight = 4
+
+  [[menu.footer]]
+  name = "Apply to Hack"
+  URL = "apply-to-hack"
+  weight = 4
+
+  [[menu.footer]]
+  name = "Buy Tickets"
+  URL = "buy-tickets"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "team", "partners","client-and-work","map",   "shedule", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "ETH Montreal"
+    text2 = ""
+
+  [params.footer]
+      copyright = "© Raditian. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"

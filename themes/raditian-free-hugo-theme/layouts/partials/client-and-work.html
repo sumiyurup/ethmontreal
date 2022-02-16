@@ -1,0 +1,87 @@
+{{ if .Site.Data.homepage.client_and_work.enable }}
+<section id="sponsors" class="section section--border-bottom">
+  <div class="container">
+    <h2 class="rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.client_and_work.title }}
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div
+          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+        >
+          Diamond
+        </div>
+        <div class="clients">
+          {{ range .Site.Data.homepage.client_and_work.diamond }}
+
+          <div class="clients__item">
+            <a href="https://radity.com">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .logo.x | absURL }}"
+                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                alt="{{ .alt }}"
+                title="{{ .alt }}"
+              />
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div
+          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+        >
+          Silver
+        </div>
+        <div class="clients">
+          {{ range .Site.Data.homepage.client_and_work.silver }}
+
+          <div class="clients__item">
+            <a href="/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .logo.x | absURL }}"
+                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                alt="{{ .alt }}"
+                title="{{ .alt }}"
+              />
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div
+          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+        >
+          Bronze
+        </div>
+        <div class="clients">
+          {{ range .Site.Data.homepage.client_and_work.bronze }}
+
+          <div class="clients__item">
+            <a href="/">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .logo.x | absURL }}"
+                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                alt="{{ .alt }}"
+                title="{{ .alt }}"
+              />
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

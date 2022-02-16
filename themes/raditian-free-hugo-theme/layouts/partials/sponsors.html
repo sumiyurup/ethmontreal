@@ -1,0 +1,30 @@
+{{ if .Site.Data.homepage.partners.enable }}
+<section
+  class="section section--border-bottom rad-animation-group"
+  id="partners"
+>
+  <div class="container">
+    <div class="row rad-fade-down">
+      <div class="col-12">
+        <h2 class="text-center mb-40">
+          {{ .Site.Data.homepage.partners.title }}
+        </h2>
+        <div class="row pt-2 pt-md-4 justify-content-center">
+          {{ range .Site.Data.homepage.partners.partners }}
+          <div class="col-4 sponsor">
+            <div class="sponsor2">
+              <div class="badge badge-primary badge-sm text-center">
+                {{ .partner }}
+              </div>
+            </div>
+            <div class="education__title education__image">
+              <img src="{{ .image }}" alt="" />
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

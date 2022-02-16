@@ -1,0 +1,163 @@
+{{ if .Site.Data.homepage.shedule.enable }}
+<section
+  class="section rad-animation-group section--border-bottom about"
+  id="schedule"
+>
+  <div class="container" data-aos="fade-up">
+    <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-6">
+        <div class="about-img">
+          <img src="/img/works/radity-finance.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <!-- Tabs -->
+        <ul class="nav nav-pills mb-3">
+          <li>
+            <a class="nav-link active" data-toggle="tab" href="#tab1"
+              >Conference</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="tab" href="#tab2">Hackathon </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="tab" href="#tab3">Side events</a>
+          </li>
+        </ul>
+        <!-- End Tabs -->
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="tab1">
+            <p class="fst-italic">
+              {{ .Site.Data.homepage.shedule.conference.content }}
+            </p>
+            <div class="tab-head">
+              <i class="fas fa-calendar-check"></i>
+              <h4>events</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                {{ range .Site.Data.homepage.shedule.conference.events }}
+                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-clock"></i>
+              <h4>Time</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.conference.time }}
+                </li>
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-location-arrow"></i>
+              <h4>Location</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.conference.location }}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Tab 1 Content -->
+
+          <div class="tab-pane fade show" id="tab2">
+            <p class="fst-italic">
+              {{ .Site.Data.homepage.hackathon.content }}
+            </p>
+            <div class="tab-head">
+              <i class="fas fa-calendar-check"></i>
+              <h4>events</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                {{ range .Site.Data.homepage.shedule.hackathon.events }}
+                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-clock"></i>
+              <h4>Time</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.hackathon.time }}
+                </li>
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-location-arrow"></i>
+              <h4>Location</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.hackathon.location }}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Tab 2 Content -->
+
+          <div class="tab-pane fade show" id="tab3">
+            <p class="fst-italic">
+              {{ .Site.Data.homepage.shedule.side_events.content }}
+            </p>
+            <div class="tab-head">
+              <i class="fas fa-calendar-check"></i>
+              <h4>events</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                {{ range .Site.Data.homepage.shedule.side_events.events }}
+                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-clock"></i>
+              <h4>Time</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.side_events.time }}
+                </li>
+              </ul>
+            </div>
+            <div class="tab-head">
+              <i class="fas fa-location-arrow"></i>
+              <h4>Location</h4>
+            </div>
+            <div class="tab-ul">
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i> {{
+                  .Site.Data.homepage.shedule.side_events.location }}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Tab 3 Content -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
