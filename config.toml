@@ -46,8 +46,8 @@ theme = "raditian-free-hugo-theme"
   weight = 6
 
   [[menu.header]]
-  name = "Schedule"
-  URL = "#schedule"
+  name = "Shedule"
+  URL = "#shedule"
   weight = 7
 
   [[menu.header]]

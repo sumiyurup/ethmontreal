@@ -42,59 +42,17 @@ team:
     - name: "Donald S. Tipps"
       company: "Dope tech"
       image: "/img/speakers/speakers-1.png"
-      social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+      
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
-
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
-
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
-
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
-
-    - name: "Trion Technology"
-      company: "Michael N. York"
+    - name: "Michael N. York"
+      company: " Trion Technology"
       image: "/img/speakers/speakers-2.png"
-      social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
-
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
-
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
-
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
-
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+      
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
-      social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
-
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
-
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
-
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
-
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+      
   button:
     icon: "fas fa-long-arrow-alt-right"
     btnText: "Our Team"
@@ -166,95 +124,78 @@ client_and_work:
 
   diamond:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
+        x: "img/clients/janalist-logos_black.png"
       alt: "Asgardia"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
+        x: "img/clients/niko club-logos_black.png"
       alt: "Earth 2.0"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
+        x: "img/clients/Phase Squad-logos_black.png"
       alt: "Goldline"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
+        x: "img/clients/pinkymart-logos_black.png"
       alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
 
   silver:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
+        x: "img/clients/linkedin_banner_image_1.png"
       alt: "Asgardia"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
+        x: "img/clients/telcom.png"
       alt: "Earth 2.0"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
+        x: "img/clients/saloa-solution.png"
       alt: "Goldline"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
+        x: "img/clients/saloa-technology.png"
       alt: "Kanba"
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
+        x: "img/clients/quaikoi.png"
       alt: "Zoo"
 
     - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
+        x: "img/clients/linkedin_banner_image_1.png"
+      alt: "Asgardia"
+    
+    - logo:
+        x: "img/clients/saloa-technology.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/nikolaes-logos_black.png"
       alt: "Ztos"
+
 
   bronze:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
+        x: "img/clients/saloa-solution.png"
       alt: "Asgardia"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
+        x: "img/clients/nikolaes-logos_black.png"
       alt: "Earth 2.0"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
+        x: "img/clients/niko club-logos_black.png"
       alt: "Goldline"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
+        x: "img/clients/telcom.png"
       alt: "Kanba"
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
+       x: "img/clients/pinkymart-logos_black.png"
       alt: "Zoo"
 
     - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
+        x: "img/clients/quaikoi.png"
       alt: "Ztos"
 
 map:

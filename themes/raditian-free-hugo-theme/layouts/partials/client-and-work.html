@@ -7,17 +7,17 @@
     <div class="row row--padded rad-animation-group rad-fade-down">
       <div class="col-12">
         <div
-          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+          class="badge badge-primary badge-sm text-center badge-primary-op font-size-22"
         >
           Diamond
         </div>
-        <div class="clients">
+        <div class="row clients">
           {{ range .Site.Data.homepage.client_and_work.diamond }}
 
-          <div class="clients__item">
+          <div class="col-md-6  clients__item clients__item2">
             <a href="https://radity.com">
               <img
-                class="lozad img-responsive"
+                class="lozad img-responsive ms-auto"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
                 data-src="{{ .logo.x | absURL }}"
                 data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
@@ -33,17 +33,17 @@
     <div class="row row--padded rad-animation-group rad-fade-down">
       <div class="col-12">
         <div
-          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+          class="badge badge-primary badge-sm text-center badge-primary-op font-size-20"
         >
           Silver
         </div>
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.silver }}
 
-          <div class="clients__item">
-            <a href="/">
+          <div class="col-md-3  clients__item clients__item2">
+            <a href="https://radity.com">
               <img
-                class="lozad img-responsive"
+                class="lozad img-responsive ms-auto"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
                 data-src="{{ .logo.x | absURL }}"
                 data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
@@ -59,17 +59,17 @@
     <div class="row row--padded rad-animation-group rad-fade-down">
       <div class="col-12">
         <div
-          class="badge badge-primary badge-sm text-center badge-primary-op mb-20"
+          class="badge badge-primary badge-sm text-center badge-primary-op font-size-18"
         >
           Bronze
         </div>
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.bronze }}
 
-          <div class="clients__item">
-            <a href="/">
+          <div class="col-md-2  clients__item clients__item2">
+            <a href="https://radity.com">
               <img
-                class="lozad img-responsive"
+                class="lozad img-responsive ms-auto"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
                 data-src="{{ .logo.x | absURL }}"
                 data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
