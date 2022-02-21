@@ -15,19 +15,19 @@
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
-          {{ .Site.Data.about.showcase.title }}
+          {{ .Site.Data.team.showcase.title }}
           <br />
-          <span>{{ .Site.Data.about.showcase.subtitle }}</span>
+          <span>{{ .Site.Data.team.showcase.subtitle }}</span>
         </h1>
         <p class="lead">
-          {{ .Site.Data.about.showcase.description | safeHTML }}
+          {{ .Site.Data.team.showcase.description | safeHTML }}
         </p>
         <div class="btn-class">
           <a
-            href="{{ .Site.Data.about.showcase.button.URL | absURL }}"
+            href="{{ .Site.Data.team.showcase.button.URL | absURL }}"
             class="btn btn-primary btn-new"
           >
-            <i class="{{ .Site.Data.about.showcase.button.icon }} pr-8"></i>
+            <i class="{{ .Site.Data.team.showcase.button.icon }} pr-8"></i>
             {{ .Site.Data.about.showcase.button.btnText }}
           </a>
         </div>
@@ -38,8 +38,8 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.about.showcase.imageMobile.x | absURL }}"
-      alt="{{ .Site.Data.about.showcase.imageMobile.alt }}"
+      data-src="{{ .Site.Data.team.showcase.imageMobile.x | absURL }}"
+      alt="{{ .Site.Data.team.showcase.imageMobile.alt }}"
     />
   </div>
 </section>

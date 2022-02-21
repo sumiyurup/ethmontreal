@@ -1,16 +1,43 @@
-<section class="section rad-animation-group pb-0" id="conference">
+<section class="section rad-animation-group pb-0 mar-btn" id="conference">
   <div class="container rad-fade-down">
     <div class="row d-flex justify-content-center text-center mt-5">
-      <div class="col">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfE2wFQwCGKGkwjE_I-XXG2RFXoK8u9J-EESzacNI7txiH8AQ/viewform?embedded=true"
-          width="640"
-          height="1300"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Loading…</iframe
-        >
+      <div class="col-12 col-md-7">
+        <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+          <div class="row">
+              <div class="col-12 col-sm-6">
+                  <input type="text" name="" id="full_name"
+                         placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
+              </div>
+              <div class="col-12 col-sm-6">
+                  <input type="text" name="" id="email"
+                         placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6">
+                <input type="text" name="" id="address"
+                       placeholder="Address"/>
+            </div>
+            <div class="col-12 col-sm-6">
+                <input type="text" name="" id="phone"
+                       placeholder="Phone Number"/>
+            </div>
+        </div>
+          <div class="row pt-4">
+              <div class="col-12">
+                  <textarea name="" id="message"
+                            cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
+              </div>
+          </div>
+          <div class="row pt-4">
+              <div class="col-12">
+                  <button type="submit" class="btn btn-primary">
+                      <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
+                      {{ .Site.Data.homepage.contact.button.btnText }}
+                  </button>
+              </div>
+          </div>
+      </form>
       </div>
     </div>
   </div>

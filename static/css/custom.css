@@ -53,11 +53,19 @@
   height: auto;
   margin: 80px auto 32px;
 }
+.card-group .card-primary .card-img-top2 {
+  width: 80%;
+  height: auto;
+  margin: 20px auto 8px;
+}
 .card-group .card-primary .card-body > .badge {
   margin-bottom: 24px;
 }
 .card-group .card-primary .card-body {
   padding: 0 32px;
+}
+.card-group .card-primary .card-body2 {
+  padding: 0 16px !important;
 }
 .card-group .card-primary .card-title {
   color: #212529;
@@ -272,4 +280,16 @@
 }
 .font-size-20{
   font-size: 20px !important;
+}
+
+.font-size-16{
+  font-size: 16px !important;
+}
+
+.font-size-12{
+  font-size: 10px !important;
+}
+
+.mar-btn{
+  margin-bottom: 100px;
 }
