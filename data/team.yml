@@ -1,3 +1,24 @@
+# showcase
+showcase:
+  enable: true
+  title: "About ETH Montreal Conference and Hackathon"
+  description: "Lorem ipsum dolor sit amet consectetur,
+  adipisicing elit. Nulla commodi esse deleniti facilis
+  sed soluta, sequi laudantium velit aspernatur quisquam?"
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "fas fa-ticket-alt"
+    btnText: "Tickets"
+    URL: "https://radity.com/en/contact/"
+
+
 # overseigh team
 overseight_team:
   enable: true
