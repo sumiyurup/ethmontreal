@@ -23,12 +23,12 @@ showcase:
   button2:
     icon: "fab fa-hackerrank"
     btnText: "Apply to Hack "
-    URL: "https://radity.com/en/contact/"
+    URL: "apply-to-hack/"
 
   button3:
     icon: "fas fa-certificate"
     btnText: "Apply to Sponsor"
-    URL: "https://radity.com/en/contact/"
+    URL: "apply-to-sponsor/"
 
 # about
 team:
@@ -40,19 +40,20 @@ team:
     _2x: "img/who-am-i/user-picture@2x.png"
   spekers:
     - name: "Donald S. Tipps"
+      col_width: "4"
       company: "Dope tech"
       image: "/img/speakers/speakers-1.png"
-      
 
     - name: "Michael N. York"
+      col_width: "4"
       company: " Trion Technology"
       image: "/img/speakers/speakers-2.png"
-      
 
     - name: "James S. Gonzales"
+      col_width: "4"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
-      
+
   button:
     icon: "fas fa-long-arrow-alt-right"
     btnText: "Our Team"
@@ -163,7 +164,7 @@ client_and_work:
     - logo:
         x: "img/clients/linkedin_banner_image_1.png"
       alt: "Asgardia"
-    
+
     - logo:
         x: "img/clients/saloa-technology.png"
       alt: "Kanba"
@@ -171,7 +172,6 @@ client_and_work:
     - logo:
         x: "img/clients/nikolaes-logos_black.png"
       alt: "Ztos"
-
 
   bronze:
     - logo:
@@ -191,7 +191,7 @@ client_and_work:
       alt: "Kanba"
 
     - logo:
-       x: "img/clients/pinkymart-logos_black.png"
+        x: "img/clients/pinkymart-logos_black.png"
       alt: "Zoo"
 
     - logo:

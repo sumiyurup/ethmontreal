@@ -27,6 +27,7 @@ overseight_team:
   team:
     - name: "Donald S. Tipps"
       company: "Dope tech"
+      col_width: "4"
       image: "/img/speakers/speakers-1.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -46,6 +47,7 @@ overseight_team:
 
     - name: "Trion Technology"
       company: "Michael N. York"
+      col_width: "4"
       image: "/img/speakers/speakers-2.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -65,6 +67,7 @@ overseight_team:
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "4"
       image: "/img/speakers/speakers-3.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -90,6 +93,7 @@ executive_team:
   team:
     - name: "Donald S. Tipps"
       company: "Dope tech"
+      col_width: "4"
       image: "/img/speakers/speakers-1.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -109,6 +113,7 @@ executive_team:
 
     - name: "Trion Technology"
       company: "Michael N. York"
+      col_width: "4"
       image: "/img/speakers/speakers-2.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -128,6 +133,7 @@ executive_team:
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "4"
       image: "/img/speakers/speakers-3.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -145,7 +151,7 @@ executive_team:
         - icon: "fas fa-globe"
           link: "https://sualsoft.com/"
 
-# Executive Team
+# volunteers Team
 volunteers:
   enable: true
   title: "Volunteers"
@@ -153,6 +159,7 @@ volunteers:
   team:
     - name: "Donald S. Tipps"
       company: "Dope tech"
+      col_width: "3"
       image: "/img/speakers/speakers-1.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -172,6 +179,7 @@ volunteers:
 
     - name: "Trion Technology"
       company: "Michael N. York"
+      col_width: "3"
       image: "/img/speakers/speakers-2.png"
       social:
         - icon: "fab fa-facebook-f"
@@ -191,133 +199,140 @@ volunteers:
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "3"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
     
     - name: "James S. Gonzales"
+      col_width: "3"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
+
+    - name: "James S. Gonzales"
+      col_width: "3"
+      company: "Creative Information Tech"
+      image: "/img/speakers/speakers-3.png"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
+
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
+
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
+
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
+
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "3"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "3"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "3"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
+      col_width: "3"
       image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
+      social:
+        - icon: "fab fa-facebook-f"
+          link: "https://www.facebook.com/"
 
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
+        - icon: "fab fa-instagram"
+          link: "https://www.instagram.com/"
 
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
+        - icon: "fab fa-linkedin-in"
+          link: "https://www.linkedin.com/"
 
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
+        - icon: "fab fa-twitter"
+          link: "https://twitter.com/"
 
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
-
-    - name: "James S. Gonzales"
-      company: "Creative Information Tech"
-      image: "/img/speakers/speakers-3.png"
-      #social:
-       # - icon: "fab fa-facebook-f"
-        #  link: "https://www.facebook.com/"
-
-        #- icon: "fab fa-instagram"
-         # link: "https://www.instagram.com/"
-
-        #- icon: "fab fa-linkedin-in"
-         # link: "https://www.linkedin.com/"
-
-        #- icon: "fab fa-twitter"
-          #link: "https://twitter.com/"
-
-        #- icon: "fas fa-globe"
-         # link: "https://sualsoft.com/"
+        - icon: "fas fa-globe"
+          link: "https://sualsoft.com/"

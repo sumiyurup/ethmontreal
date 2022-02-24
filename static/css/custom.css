@@ -33,7 +33,8 @@
 }
 .badge-primary {
   z-index: 999 !important;
-  background-color: #212529;
+  background-color: #fff;
+  color: #e93e34;
   border-radius: none;
   font-style: italic;
 }
@@ -45,9 +46,7 @@
 .card-group .card-primary:hover .card-title {
   color: #e93e34;
 }
-.card-group .card-primary:hover .badge-primary {
-  background-color: #e93e34;
-}
+
 .card-group .card-primary .card-img-top {
   width: 100%;
   height: auto;
@@ -267,29 +266,41 @@
   align-items: center;
   justify-content: center;
 }
-.clients__item2 img{
+.clients__item2 img {
   width: 350px;
   margin-top: 50px;
 }
 
-.font-size-22{
+.font-size-22 {
   font-size: 22px !important;
 }
-.font-size-18{
+.font-size-18 {
   font-size: 18px !important;
 }
-.font-size-20{
+.font-size-20 {
   font-size: 20px !important;
 }
 
-.font-size-16{
+.font-size-16 {
   font-size: 16px !important;
 }
 
-.font-size-12{
+.font-size-12 {
   font-size: 10px !important;
 }
 
-.mar-btn{
+.mar-btn {
   margin-bottom: 100px;
+}
+
+.pcolor {
+  color: #e93e34;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.pcolor2 {
+  color: #e93e34;
+  font-size: 22px;
+  font-style: italic;
 }

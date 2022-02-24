@@ -9,15 +9,16 @@
     </div>
     <div class="row card-group">
       {{ range .Site.Data.team.volunteers.team }}
-      <div class="col-12 col-md-3 col-sm-6">
+      <div class="col-12 col-md-{{.col_width}} col-sm-6">
         <div class="card card-primary text-center">
           <img class="card-img-top2" src="{{ .image }}" alt="Card image cap" />
           <div class="card-body2">
             <div class="card-title font-size-16">{{ .name}}</div>
-            <div class="badge badge-primary badge-sm font-size-12">{{ .company}}</div>
-            
+            <div class="badge badge-primary badge-sm font-size-12">
+              {{ .company}}
+            </div>
           </div>
-          <div class="card-social" style="display: none;">
+          <div class="card-social" style="display: none">
             <ul>
               {{ range .social }}
               <li>
