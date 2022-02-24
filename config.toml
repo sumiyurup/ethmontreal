@@ -27,27 +27,27 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Conference"
-  URL = "#conference"
+  URL = "/#conference"
   weight = 2
 
   [[menu.header]]
   name = "Partners"
-  URL = "#partners"
+  URL = "/#partners"
   weight = 4
 
   [[menu.header]]
   name = "Sponsors "
-  URL = "#sponsors"
+  URL = "/#sponsors"
   weight = 5
 
   [[menu.header]]
   name = "Venu"
-  URL = "#venu"
+  URL = "/#venu"
   weight = 6
 
   [[menu.header]]
   name = "Shedule"
-  URL = "#shedule"
+  URL = "/#shedule"
   weight = 7
 
   [[menu.header]]
