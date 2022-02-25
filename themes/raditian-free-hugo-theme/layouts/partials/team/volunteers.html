@@ -18,11 +18,13 @@
               {{ .company}}
             </div>
           </div>
-          <div class="card-social" style="display: none">
+          <div class="card-social margint-top16">
             <ul>
               {{ range .social }}
               <li>
-                <a href="{{ .link}}"><i class="{{ .icon}}"></i></a>
+                <a href="{{ .URL | absURL }}" target="_blank"
+                  ><i class="icon-{{ .icon }}-line"></i
+                ></a>
               </li>
               {{ end }}
             </ul>

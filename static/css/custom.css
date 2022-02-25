@@ -71,7 +71,7 @@
   font-size: 26px;
   line-height: 1.54;
   font-weight: 900;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .card-group .card-primary .card-footer {
@@ -82,6 +82,9 @@
 
 .card-social {
   margin-bottom: 20px;
+}
+.margint-top16 {
+  margin-top: 16px !important;
 }
 .card-social ul {
   padding: 0 !important;
@@ -287,6 +290,7 @@
 
 .font-size-12 {
   font-size: 10px !important;
+  margin-bottom: 8px !important;
 }
 
 .mar-btn {

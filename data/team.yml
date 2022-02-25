@@ -30,60 +30,60 @@ overseight_team:
       col_width: "4"
       image: "/img/speakers/speakers-1.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "Trion Technology"
       company: "Michael N. York"
       col_width: "4"
       image: "/img/speakers/speakers-2.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       col_width: "4"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
 # Executive Team
 executive_team:
@@ -96,60 +96,60 @@ executive_team:
       col_width: "4"
       image: "/img/speakers/speakers-1.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "Trion Technology"
       company: "Michael N. York"
       col_width: "4"
       image: "/img/speakers/speakers-2.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       col_width: "4"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
 # volunteers Team
 volunteers:
@@ -162,177 +162,177 @@ volunteers:
       col_width: "3"
       image: "/img/speakers/speakers-1.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "Trion Technology"
       company: "Michael N. York"
       col_width: "3"
       image: "/img/speakers/speakers-2.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       col_width: "3"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
     
     - name: "James S. Gonzales"
       col_width: "3"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       col_width: "3"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
-
-    - name: "James S. Gonzales"
-      company: "Creative Information Tech"
-      col_width: "3"
-      image: "/img/speakers/speakers-3.png"
-      social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
-
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
-
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
-
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
-
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       col_width: "3"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
-
-    - name: "James S. Gonzales"
-      company: "Creative Information Tech"
-      col_width: "3"
-      image: "/img/speakers/speakers-3.png"
-      social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
-
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
-
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
-
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
-
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       company: "Creative Information Tech"
       col_width: "3"
       image: "/img/speakers/speakers-3.png"
       social:
-        - icon: "fab fa-facebook-f"
-          link: "https://www.facebook.com/"
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
 
-        - icon: "fab fa-instagram"
-          link: "https://www.instagram.com/"
+        - icon: "github"
+          URL: "https://github.com/radity"
 
-        - icon: "fab fa-linkedin-in"
-          link: "https://www.linkedin.com/"
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
 
-        - icon: "fab fa-twitter"
-          link: "https://twitter.com/"
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
 
-        - icon: "fas fa-globe"
-          link: "https://sualsoft.com/"
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
+
+    - name: "James S. Gonzales"
+      company: "Creative Information Tech"
+      col_width: "3"
+      image: "/img/speakers/speakers-3.png"
+      social:
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
+
+        - icon: "github"
+          URL: "https://github.com/radity"
+
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
+
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
+
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
+
+    - name: "James S. Gonzales"
+      company: "Creative Information Tech"
+      col_width: "3"
+      image: "/img/speakers/speakers-3.png"
+      social:
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
+
+        - icon: "github"
+          URL: "https://github.com/radity"
+
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
+
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
+
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"

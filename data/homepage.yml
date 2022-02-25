@@ -43,16 +43,61 @@ team:
       col_width: "4"
       company: "Dope tech"
       image: "/img/speakers/speakers-1.png"
+      social:
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
+
+        - icon: "github"
+          URL: "https://github.com/radity"
+
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
+
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
+
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "Michael N. York"
       col_width: "4"
       company: " Trion Technology"
       image: "/img/speakers/speakers-2.png"
+      social:
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
+
+        - icon: "github"
+          URL: "https://github.com/radity"
+
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
+
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
+
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
     - name: "James S. Gonzales"
       col_width: "4"
       company: "Creative Information Tech"
       image: "/img/speakers/speakers-3.png"
+      social:
+        - icon: "linkedin"
+          URL: "https://www.linkedin.com/company/radity/"
+
+        - icon: "github"
+          URL: "https://github.com/radity"
+
+        - icon: "twitter"
+          URL: "https://twitter.com/radity"
+
+        - icon: "dribbble"
+          URL: "https://dribbble.com/radity"
+
+        - icon: "behance"
+          URL: "https://www.behance.net/radity-digital"
 
   button:
     icon: "fas fa-long-arrow-alt-right"
