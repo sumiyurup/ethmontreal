@@ -52,7 +52,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "About us"
-  URL = "about"
+  URL = "/about"
   weight = 8
 
 

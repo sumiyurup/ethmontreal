@@ -287,8 +287,11 @@
 .font-size-16 {
   font-size: 16px !important;
 }
-
 .font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-10 {
   font-size: 10px !important;
   margin-bottom: 8px !important;
 }
