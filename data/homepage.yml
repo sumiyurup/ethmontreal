@@ -253,34 +253,69 @@ map:
 
 # shedule
 shedule:
-  image: "/img/works/radity-finance.png"
   enable: true
   conference:
-    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
-    events:
-      - "Lorem ipsum dolor sit."
-      - "Lorem, ipsum dolor."
-      - "Lorem ipsum dolor sit amet."
-    time: "06:00 PM Onward"
-    location: "47 W 13th St, New York, NY 10011, USA"
+    - time: 4:00PM
+      sub_time: ""
+      content: "Hackathon registration opens"
+      sub_content: ""
+
+    - time: 10:00 - 10:25PM
+      sub_time: ""
+      content: "Getting started with Ethereum development: How to use Metamask, Remix and Web3.js [A must attend for beginners!]"
+      sub_content: "with Josh Crites from Consensys Academy"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Buterin Room"
+      content: "I-B-C, Easy as N-F-T (Baby, you and me)"
+      sub_content: "with David Sun from 0x"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Lazaridis Room"
+      content: "Monetize your casual game into a Blockchain eSports Game"
+      sub_content: "with Junda Liu from Celer"
 
   hackathon:
-    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
-    events:
-      - "Lorem ipsum dolor sit."
-      - "Lorem, ipsum dolor."
-      - "Lorem ipsum dolor sit amet."
-    time: "06:00 PM Onward"
-    location: "47 W 13th St, New York, NY 10011, USA"
+    - time: 4:00PM
+      sub_time: "hackthn"
+      content: "Hackathon registration opens"
+      sub_content: ""
+
+    - time: 10:00 - 10:25PM
+      sub_time: ""
+      content: "Getting started with Ethereum development: How to use Metamask, Remix and Web3.js [A must attend for beginners!]"
+      sub_content: "with Josh Crites from Consensys Academy"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Buterin Room"
+      content: "I-B-C, Easy as N-F-T (Baby, you and me)"
+      sub_content: "with David Sun from 0x"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Lazaridis Room"
+      content: "Monetize your casual game into a Blockchain eSports Game"
+      sub_content: "with Junda Liu from Celer"
 
   side_events:
-    content: "Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita."
-    events:
-      - "Lorem ipsum dolor sit."
-      - "Lorem, ipsum dolor."
-      - "Lorem ipsum dolor sit amet."
-    time: "06:00 PM Onward"
-    location: "47 W 13th St, New York, NY 10011, USA"
+    - time: 4:00PM
+      sub_time: "side event"
+      content: "Hackathon registration opens"
+      sub_content: ""
+
+    - time: 10:00 - 10:25PM
+      sub_time: ""
+      content: "Getting started with Ethereum development: How to use Metamask, Remix and Web3.js [A must attend for beginners!]"
+      sub_content: "with Josh Crites from Consensys Academy"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Buterin Room"
+      content: "I-B-C, Easy as N-F-T (Baby, you and me)"
+      sub_content: "with David Sun from 0x"
+
+    - time: 9:00 - 9:25PM
+      sub_time: "Lazaridis Room"
+      content: "Monetize your casual game into a Blockchain eSports Game"
+      sub_content: "with Junda Liu from Celer"
 
 # contact
 contact:

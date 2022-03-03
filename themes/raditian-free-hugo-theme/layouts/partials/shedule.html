@@ -8,15 +8,15 @@
       <div class="col-lg-12">
         <!-- Tabs -->
         <ul class="nav nav-pills mb-3">
-          <li>
+          <li class="col-md-3">
             <a class="nav-link active" data-toggle="tab" href="#tab1"
               >Conference</a
             >
           </li>
-          <li>
+          <li class="col-md-3">
             <a class="nav-link" data-toggle="tab" href="#tab2">Hackathon </a>
           </li>
-          <li>
+          <li class="col-md-3">
             <a class="nav-link" data-toggle="tab" href="#tab3">Side events</a>
           </li>
         </ul>
@@ -25,128 +25,62 @@
         <!-- Tab Content -->
         <div class="tab-content">
           <div class="tab-pane fade show active" id="tab1">
-            <p class="fst-italic">
-              {{ .Site.Data.homepage.shedule.conference.content }}
-            </p>
-            <div class="tab-head">
-              <i class="fas fa-calendar-check"></i>
-              <h4>events</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                {{ range .Site.Data.homepage.shedule.conference.events }}
-                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-clock"></i>
-              <h4>Time</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.conference.time }}
-                </li>
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-location-arrow"></i>
-              <h4>Location</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.conference.location }}
-                </li>
-              </ul>
-            </div>
+            <table class="table table-bordered">
+              <tbody>
+                {{ range .Site.Data.homepage.shedule.conference }}
+                <tr>
+                  <td>
+                    <h6>{{ .time}}</h6>
+                    <p>{{ .sub_time}}</p>
+                  </td>
+                  <td>
+                    <h5>{{ .content}}</h5>
+                    <p>{{ .sub_content}}</p>
+                  </td>
+                </tr>
+                {{ end}}
+              </tbody>
+            </table>
           </div>
           <!-- End Tab 1 Content -->
 
           <div class="tab-pane fade show" id="tab2">
-            <p class="fst-italic">
-              {{ .Site.Data.homepage.hackathon.content }}
-            </p>
-            <div class="tab-head">
-              <i class="fas fa-calendar-check"></i>
-              <h4>events</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                {{ range .Site.Data.homepage.shedule.hackathon.events }}
-                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-clock"></i>
-              <h4>Time</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.hackathon.time }}
-                </li>
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-location-arrow"></i>
-              <h4>Location</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.hackathon.location }}
-                </li>
-              </ul>
-            </div>
+            <table class="table table-bordered">
+              <tbody>
+                {{ range .Site.Data.homepage.shedule.hackathon }}
+                <tr>
+                  <td>
+                    <h6>{{ .time}}</h6>
+                    <p>{{ .sub_time}}</p>
+                  </td>
+                  <td>
+                    <h5>{{ .content}}</h5>
+                    <p>{{ .sub_content}}</p>
+                  </td>
+                </tr>
+                {{ end}}
+              </tbody>
+            </table>
           </div>
           <!-- End Tab 2 Content -->
 
           <div class="tab-pane fade show" id="tab3">
-            <p class="fst-italic">
-              {{ .Site.Data.homepage.shedule.side_events.content }}
-            </p>
-            <div class="tab-head">
-              <i class="fas fa-calendar-check"></i>
-              <h4>events</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                {{ range .Site.Data.homepage.shedule.side_events.events }}
-                <li><i class="fas fa-angle-double-right"></i> {{ .}}</li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-clock"></i>
-              <h4>Time</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.side_events.time }}
-                </li>
-              </ul>
-            </div>
-            <div class="tab-head">
-              <i class="fas fa-location-arrow"></i>
-              <h4>Location</h4>
-            </div>
-            <div class="tab-ul">
-              <ul>
-                <li>
-                  <i class="fas fa-angle-double-right"></i> {{
-                  .Site.Data.homepage.shedule.side_events.location }}
-                </li>
-              </ul>
-            </div>
+            <table class="table table-bordered">
+              <tbody>
+                {{ range .Site.Data.homepage.shedule.side_events }}
+                <tr>
+                  <td>
+                    <h6>{{ .time}}</h6>
+                    <p>{{ .sub_time}}</p>
+                  </td>
+                  <td>
+                    <h5>{{ .content}}</h5>
+                    <p>{{ .sub_content}}</p>
+                  </td>
+                </tr>
+                {{ end}}
+              </tbody>
+            </table>
           </div>
           <!-- End Tab 3 Content -->
         </div>
