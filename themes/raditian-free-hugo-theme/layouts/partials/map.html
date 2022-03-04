@@ -1,10 +1,8 @@
 {{ if .Site.Data.homepage.client_and_work.enable }}
-<section id="venu" class="section ">
+<section id="venu" class="section rad-animation-group">
   <div class="container">
     {{ range $index, $element := .Site.Data.homepage.map }}
-    <div
-      class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
-    >
+    <div class="row rad-fade-down">
       <div class="col-12 col-md-7 pl-md-0 text-right">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15845.41984443695!2d79.97522049999999!3d6.847983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1645014261918!5m2!1sen!2slk"
